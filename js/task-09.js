@@ -13,5 +13,5 @@ btnEl.addEventListener('click', handlerBackgroundColor);
 
 function handlerBackgroundColor() {
   bodyEl.style.backgroundColor = getRandomHexColor();
-  spnColor.textContent = bodyEl.style.backgroundColor
+  spnColor.textContent = getRandomHexColor();
 }
